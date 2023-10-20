@@ -1,6 +1,7 @@
 {
   "name": "overwolf-nanostores",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "type": "module",
   "description": "Nano Stores implement for Overwolf Plugin",
   "author": "Jirawat Boonkumnerd <contact@ntsd.dev> (https://ntsd.dev)",
   "main": "./dist/index.js",
@@ -19,7 +20,7 @@
   },
   "scripts": {
     "build": "tsc -b ./tsconfig.json",
-    "docs": "typedoc ./src --out ./docs"
+    "docs": "typedoc --options typedoc.json"
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,10 @@
   },
   "keywords": [
     "overwolf",
-    "nanostores"
+    "nanostores",
+    "overlay"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ntsd/overwolf-nanostores/issues"
   },

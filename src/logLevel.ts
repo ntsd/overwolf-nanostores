@@ -1,7 +1,16 @@
 import { atom } from "nanostores";
 
-type LogLevel = "debug" | "error" | "none";
+/**
+ * Log level
+ * `none`: no log
+ * `error`: will print errors
+ * `debug`: will print debug logs
+ */
+export type LogLevel = "debug" | "error" | "none";
 
+/**
+ * Atom for Log level of all Overwolf Nanostores
+ */
 export const logLevelAtom = atom<LogLevel>("error");
 
 /**
