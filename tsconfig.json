@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": true, // Generate source map for IDE
+        "allowJs": true, // Tells TypeScript to read JS files, as normally they are ignored as source files 
+        "esModuleInterop": true, // Emit additional JavaScript to ease support for importing CommonJS modules.
+        "outDir": "./dist",
+        "target": "es2018",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "declaration": true, // Generate d.ts files
+        "declarationMap": true, // go to js file when using IDE functions like "Go to Definition" in VSCode
+        "types": [
+            "@overwolf/types"
+        ],
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+}
