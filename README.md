@@ -1,5 +1,7 @@
 # Overwolf Nano Stores
 
+[![npm version](https://badge.fury.io/js/overwolf-nanostores.svg)](https://www.npmjs.com/package/overwolf-nanostores)
+
 [Nano Stores](https://github.com/nanostores/nanostores) implementation for Overwolf Plugin
 
 ## Prerequisite
